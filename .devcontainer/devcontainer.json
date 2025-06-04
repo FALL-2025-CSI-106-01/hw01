@@ -17,8 +17,11 @@
 	"customizations": {
 	    "vscode": {
 			"extensions": ["ms-python.python"],
-			"editor.quickSuggestions": false,
-			"editor.suggestOnTriggerCharacters": false
+			"editor.quickSuggestions": false, // turn off auto complete
+			"editor.suggestOnTriggerCharacters": false,  // turn of auto complete
+			"github.copilot.enable": false, // turn off auto complete
+			"editor.parameterHints.enabled": true,
+			"github.copilot.inlineSuggest.enable": false // turn off copilott "stars"
 		  }
 	}
 
